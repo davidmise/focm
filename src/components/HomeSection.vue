@@ -1,7 +1,7 @@
 <script setup>
 import SlideShow from './SlideShow.vue';
 import AboutSection from './AboutSection.vue';
-import GallerySection from './GallerySection.vue';
+
 </script>
 
 <template>
