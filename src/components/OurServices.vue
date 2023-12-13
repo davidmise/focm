@@ -1,6 +1,6 @@
 <template>
     <!-- Our services -->
-    <section class="px-wide-300">
+    <section class="px-wide-100">
         <div class="container-fluid py-5">
             <div class="row text-center">
                 <div class="col-lg-12 mx-auto">
