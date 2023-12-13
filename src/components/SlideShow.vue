@@ -1,19 +1,23 @@
 <template>
- 
         <div>
-            <div id="carouselExampleControls" class="carousel slide  shadow-lg carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner " >
-                <div class="top">
-                    <NavigationBar/>
-                </div>
-             
-                <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide opacity-75', index === 0 ? 'active' : '']">
-                    <img :src="image" class="d-block w-100" alt="Slide"  />
-                        <div class="centered display-4">
-                            <span> <strong class="fw-bold"> Creative thinking  </strong> <br>
-                                Introducing new ideas or methods  
-                                Characteristics of One Person or thing, and 
-                                so serving to distinguish it from others</span>
+            <div id="carouselExampleControls" class="carousel slide  shadow-lg carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-inner">     
+                <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide ', index === 0 ? 'active' : '']">
+                    <img :src="image" class=" d-block w-100"  alt="Slide" />
+                    <div class="top">
+                        <NavigationBar/>
+                    </div>
+                        <div class="centered ">
+                            <div class="row text-center text-white">
+                                <div class="col-lg-12 mx-auto">
+                                    <strong class="fw-bold vw-4"> Creative thinking.  </strong> <br>
+                                        <span class="vw-3"> 
+                                            Introducing new ideas or methods  
+                                            Characteristics of One Person or thing, and 
+                                            so serving to distinguish it from others
+                                        </span>
+                                </div>
+                            </div>
                         </div>
                 </div>
             </div>
