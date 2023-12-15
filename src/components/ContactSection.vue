@@ -18,29 +18,26 @@
                                         <!-- form Div -->
                                         <div class=" col-lg-6 mx-auto  pt-2 " style="color:aliceblue; font-size:large; ">
                                             <!-- form starts here -->
-                                            <form action="" method="">
+                                            <form @submit.prevent="submitForm" action="" method="POST">
                                                 <!-- name -->
                                                 <div class="row" >
                                                     <div class="col-lg-6">
                                                         <label for="name" class="form-label">First Name:</label>
-                                                        <input type="text" name="name" id="myForm" class="form-control my-2  py-2"/>
+                                                        <input v-model="formData.fname" required type="text" name="name" id="myForm" class="form-control my-2  py-2"/>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <label for="name" class="form-label">Last Name:</label>
-                                                        <input type="text" name="name" id="myForm" class="form-control my-2 py-2" />
+                                                        <input v-model="formData.lname" required type="text" name="name" id="myForm" class="form-control my-2 py-2" />
                                                     </div>
                                                 </div> <br>
 
-                                                <label for="phone" class="form-label">Phone Number:</label>
-                                                <input type="phone" name="phone number" id="myForm" class="form-control my-2 py-2" /> <br>
-                                            
-                                                <!-- pasword input -->
+                                                <!-- email input -->
                                                 <label for="email">Email:</label>
-                                                <input  type="email" name="email" id="email" class="form-control my-2  py-2" placeholder="Email"/> <br>
+                                                <input v-model="formData.email" required  type="email" name="email" id="email" class="form-control my-2  py-2" placeholder="Email"/> <br>
 
                                                 <!--message-->
                                                 <label for="textarea" class="form-label">Send us a Message:</label>
-                                                <textarea name="" class="text-area rounded form-control" id="" cols="47" rows="5" placeholder="Message"></textarea>
+                                                <textarea v-model="formData.message" required name="" class="text-area rounded form-control" id="" cols="47" rows="5" placeholder="Message"></textarea>
                                                
                                             
                                             <!-- button -->
@@ -102,3 +99,35 @@
         </div><!-- End of dark bg --> 
     </section>
 </template>
+
+<script>
+import axios from 'axios';
+export default{
+ data(){
+    return {
+        formData:{
+            fname: "",
+            lname:"",
+            email:"",
+            message:"",
+        },
+    }; //end of return 
+ }, //end of data(){}
+
+ methods:{
+    async submitForm(){
+        try {
+        const response = await axios.post('[http://127.0.0.1:8000/api/contact', this.formData);
+        console.log(response.data);
+        
+        // Handle success, e.g., show a success message to the user
+      } catch (error) {
+        console.error('Error submitting form:', error);
+        // Handle error, e.g., show an error message to the user
+      }
+    },
+ }, // end of methods
+} // end of export default{}
+
+
+</script>
