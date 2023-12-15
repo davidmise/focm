@@ -1,29 +1,29 @@
 <template>
-    <section>
+    <section id="contacts">
         <div class="container-fluid py-5 bg-dark ">
             <div class="row text-white">
-                <div class="col-lg-12 mx-auto">
+                <div class="col-lg-12  mx-auto">
                     <div class="text-center pb-3">
-                        <span class=" display-4 text-uppercase  fw-bold">  lets work togather.</span>
+                        <span class=" display-4 px-3 fw-bold"> Let's take take a step towards a better world. </span>
                     </div>     
                     <div class="container-fluid ">
                         <div class="row">
                             <div class="">
-                                <div class="col-lg-12 col-sm-6 mb-5">
-                                    <div class="  card bg-secondary rounded-5 shadow py-5 px-4">
-                                        <div class="card-title text-center py-2 pb-2">
+                                <div class="col-lg-12 mx-auto col-md-8 col-sm-6 mb-5">
+                                    <div class="   rounded-5 shadow py-5 ">
+                                        <div class=" text-center py-2 pb-2">
                                             <h5 class="mb-0" style="color: white;">Schedule a free discovery call with our Executive.
                                             </h5>
                                         </div>
                                         <!-- form Div -->
-                                        <div class=" col-lg-6 mx-auto card-body pt-2 fs-5" style="color:aliceblue; font-size:large; ">
+                                        <div class=" col-lg-6 mx-auto  pt-2 " style="color:aliceblue; font-size:large; ">
                                             <!-- form starts here -->
                                             <form action="" method="">
                                                 <!-- name -->
                                                 <div class="row" >
                                                     <div class="col-lg-6">
                                                         <label for="name" class="form-label">First Name:</label>
-                                                        <input type="text" name="name" id="myForm" class="form-control my-2 py-2"/>
+                                                        <input type="text" name="name" id="myForm" class="form-control my-2  py-2"/>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <label for="name" class="form-label">Last Name:</label>
@@ -36,7 +36,7 @@
                                             
                                                 <!-- pasword input -->
                                                 <label for="email">Email:</label>
-                                                <input  type="email" name="email" id="email" class="form-control my-2 py-2" placeholder="Email"/> <br>
+                                                <input  type="email" name="email" id="email" class="form-control my-2  py-2" placeholder="Email"/> <br>
 
                                                 <!--message-->
                                                 <label for="textarea" class="form-label">Send us a Message:</label>
@@ -44,8 +44,8 @@
                                                
                                             
                                             <!-- button -->
-                                                <div class="text-center mt-3" >
-                                                    <button type="submit" class="rounded btn btn-lg px-5 rounded-5 " style="border: 1px solid blanchedalmond;" name="submit">SUBMIT</button>
+                                                <div class="text-center mt-5 mt-3" >
+                                                    <button type="submit" class="rounded btn-lg px-5 rounded-5 fw-bold " style="border: 3px solid white;" name="submit">SUBMIT</button>
                                                 </div> 
                                             
                                                 <!-- <a class=" nav-link" href="https://www.overland.co.tz/Login/">
@@ -58,7 +58,7 @@
                                 </div><!-- End -->
                             </div>
                         </div>
-                        <div class="text-center">
+                        <!-- <div class="text-center">
                             <span>
                                 <strong class="h6 text-uppercase">
                                     contact us
@@ -95,7 +95,7 @@
                             </span>
                             
                        
-                        </div> 
+                        </div>  -->
                     </div>
                 </div>
             </div>

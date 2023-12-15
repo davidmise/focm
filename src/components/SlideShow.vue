@@ -1,11 +1,16 @@
 <template>
-        <div>
-            <div id="carouselExampleControls" class="carousel slide  shadow-lg carousel-fade " data-bs-ride="carousel">
+     <NavigationBar/>
+        <div id="carouselExampleControls" class="carousel slide  shadow-lg carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">     
                 <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide ', index === 0 ? 'active' : '']">
                     <img :src="image" class=" d-block w-100"  alt="Slide" />
                     <div class="top">
-                        <NavigationBar/>
+                       
                     </div>
                         <div class="centered ">
                             <div class="row text-center text-white">
@@ -14,7 +19,7 @@
                                         <span class="vw-3"> 
                                             Introducing new ideas or methods  
                                             Characteristics of One Person or thing, and 
-                                            so serving to distinguish it from others
+                                            so serving to distinguish it from others.
                                         </span>
                                 </div>
                             </div>
@@ -29,8 +34,8 @@
                 <span class="carousel-control-next-icon"  aria-hidden="true"></span>
                 <span class="visually-hidden" >Next</span>
             </button>
-            </div>
         </div>
+    
 </template>
 <script>
 import NavigationBar from '@/components/NavigationBar.vue'

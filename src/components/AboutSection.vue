@@ -1,9 +1,10 @@
 <template>
-     <div class="container-fluid py-5 bg-dark ">
+    <section id="about">
+        <div class="container-fluid py-5 bg-dark ">
             <div class="row text-center text-white">
                 <div class="col-lg-12 mx-auto">
                     <div class="justify-content-center">
-                        <span class=" vw-4 text-uppercase fw-bold"> <img src="../assets/images/random/crown.png" width="40vw" alt=""> what makes us different? </span>
+                        <!-- <span class=" vw-4 text-uppercase fw-bold"> <img src="../assets/images/random/crown.png" width="40vw" alt=""> what makes us different? </span> -->
                     </div>     
                     <div class="text-left">
                         <span class="vw-2"> 
@@ -17,4 +18,5 @@
                 </div>
             </div>
         </div><!-- End -->
+    </section>
 </template>
