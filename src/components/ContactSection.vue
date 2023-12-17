@@ -42,7 +42,7 @@
                                             
                                             <!-- button -->
                                                 <div class="text-center mt-5 mt-3" >
-                                                    <button type="submit" class="rounded btn-lg px-5 rounded-5 fw-bold " style="border: 3px solid white;" name="submit">SUBMIT</button>
+                                                    <button type="submit" class=" contact-btn rounded btn-lg px-5 rounded-5 fw-bold " style="border: 3px solid white;" name="submit">SUBMIT</button>
                                                 </div> 
                                             
                                                 <!-- <a class=" nav-link" href="https://www.overland.co.tz/Login/">

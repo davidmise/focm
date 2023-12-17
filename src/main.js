@@ -17,6 +17,8 @@ library.add(faUserSecret)
 
 // .component('font-awesome-icon', FontAwesomeIcon)
 
+import 'jquery/dist/jquery.js';
+
 
 import App from './App.vue'
 import router from './router'
