@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top opacity-75" >
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top opacity-75" :class="{ 'navbar-hidden': isNavbarHidden }" >
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Logo</a> -->
           <RouterLink to="/"  class="navbar-brand" aria-current="page" href="#experience">
@@ -21,3 +21,37 @@
         </div>
       </nav>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      isNavbarHidden: false,
+      lastScrollTop: 0,
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Check if scrolling down
+      this.isNavbarHidden = currentScrollTop > this.lastScrollTop && currentScrollTop > 50;
+
+      this.lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+    },
+  },
+};
+</script>
+
+<style scoped>
+/* Add styling for the hidden class */
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+</style>

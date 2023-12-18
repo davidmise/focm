@@ -44,10 +44,10 @@
   width: 100vw;
 }
 
-body {
+/* body {
   background-color: #111111;
   background-image: url('http://placekitten.com/1000/1000');
-}
+} */
 .contact-btn {
   transition: all .5s ease;
   color: #fff;

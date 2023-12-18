@@ -153,29 +153,10 @@
             </div>
         </div>
     </div>
-      
+
     </section><!-- End Portfolio Section -->
 </template>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
 <script>
-import 'jquery';
-export default {
-  mounted() {
-    // Portfolio isotope and filter
-    (function ($) {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows',
-    });
-
-    $('#portfolio-flters li').on('click', function () {
-      $('#portfolio-flters li').removeClass('active');
-      $(this).addClass('active');
-
-      portfolioIsotope.isotope({ filter: $(this).data('filter') });
-    });
-})(jQuery);
-  },
-};
-
+import '../helpers/services.js';
 </script>
