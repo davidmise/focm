@@ -1,6 +1,6 @@
 <template>
     <!-- Photograohy -->
-    <section>
+    <section id="gallery">
         <div class="container-fluid py-5">
             <div class="row text-center">
                 <div class="col-lg-12 mx-auto">
@@ -16,13 +16,12 @@
         <div class=" container mx-auto row">
             <!-- first row -->
             <div class="row">
-                <div class="col-lg-6 display-5 justify-content-center">
+                <div class="col-lg-6 justify-content-center">
                     <img
-                        src="../assets/images/grid/1.JPG"
+                        src="../assets/images/grid/9.JPG"
                         class="w-100  shadow-1-strong rounded mb-4"
                         alt="Boat on Calm Water"
                     />
-                    The Beauty of Photography
                 </div>
 
                 <div class="col-lg-6">

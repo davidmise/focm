@@ -5,6 +5,12 @@
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="8" aria-label="Slide 9"></button>
             </div>
             <div class="carousel-inner">     
                 <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide ', index === 0 ? 'active' : '']">
@@ -44,10 +50,15 @@ import img1 from '../assets/images/carousel/1.png';
 import img3 from '../assets/images/carousel/3.png';
 import img2 from '../assets/images/carousel/2.png';
 import img4 from '../assets/images/carousel/4.png';
+import img5 from '../assets/images/carousel/5.jpg';
+import img6 from '../assets/images/carousel/6.jpg';
+import img7 from '../assets/images/carousel/7.jpg';
+import img8 from '../assets/images/carousel/8.jpg';
+import img9 from '../assets/images/carousel/9.jpg';
 export default {
   data() {
     return {
-      images: [img1,img2,img3,img4]
+      images: [ img1, img2, img3, img4, img5, img6,img7, img8, img9 ]
     }
   },
   components:{

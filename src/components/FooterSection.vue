@@ -31,7 +31,7 @@
                 <a class="btn btn-light btn-social mr-2" href="#"><i class="bi bi-twitter"></i></a>
                 <a class="btn btn-light btn-social mr-2" href="#"><i class="bi bi-facebook"></i></a>
                 <a class="btn btn-light btn-social mr-2" href="#"><i class="bi bi-linkedin"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="bi bi-instagram"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.instagram.com/fo_creativeminds/"><i class="bi bi-instagram"></i></a>
                 <a class="btn btn-light btn-social" href="https://wa.me/255714251222"><i class="bi bi-whatsapp"></i></a>
               </div>
             </div>

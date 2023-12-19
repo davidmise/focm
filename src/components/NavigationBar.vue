@@ -1,9 +1,9 @@
 <template>
-    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top opacity-75" :class="{ 'navbar-hidden': isNavbarHidden }" >
+    <nav  class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top opacity-75" :class="{ 'navbar-hidden': isNavbarHidden }" >
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Logo</a> -->
           <RouterLink to="/"  class="navbar-brand" aria-current="page" href="#experience">
-             <img src="../assets/images/logo/logo.svg" class="img-fluid" alt="fo logo"> 
+             <img src="../assets/images/logo/logo.svg" class="img-fluid img-logo" alt="fo logo"> 
              <!-- <span> Overland </span> -->
             </RouterLink>
           <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,6 +14,7 @@
                 <a  class="nav-link navbar-brand active  fw-bold d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#home" >  HOME </a>
                 <a class="nav-link navbar-brand fw-bold  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#about"> About us </a>
                 <a   class="nav-link navbar-brand fw-bold active  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#services">Services</a>
+                <a   class="nav-link navbar-brand fw-bold active  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#gallery">Gallery</a>
                 <!-- <RouterLink to="/"  class="nav-link navbar-brand fw-bold active d-flex justify-content-center text-white  text-uppercase" aria-current="page" href="#experience"></RouterLink> -->
                 <a   class="nav-link navbar-brand fw-bold active d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#contacts">Contacts</a>
             </div>
@@ -48,10 +49,28 @@ export default {
 };
 </script>
 
+
+
 <style scoped>
 /* Add styling for the hidden class */
 .navbar-hidden {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
-</style>
+/* Hide the navigation links on small devices by default */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    display: none;
+  }
+  .img-logo{
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+
+
+  /* Show the navigation links when the menu is expanded */
+  .navbar-toggler[aria-expanded="true"] + .collapse .navbar-nav {
+    display: flex;
+  }
+}</style>
