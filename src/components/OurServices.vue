@@ -96,7 +96,7 @@
                     </div> -->
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/1.JPG" alt="">
+                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/1.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="img/IMG-20220105-WA0052.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -136,7 +136,7 @@
                     </div> -->
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/4.JPG" alt="">
+                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/4.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="img/IMG-20220105-WA0052.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>

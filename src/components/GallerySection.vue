@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-lg-6 justify-content-center">
                     <img
-                        src="../assets/images/grid/9.JPG"
+                        src="../assets/images/grid/9.jpg"
                         class="w-100  shadow-1-strong rounded mb-4"
                         alt="Boat on Calm Water"
                     />
@@ -26,7 +26,7 @@
 
                 <div class="col-lg-6">
                     <img
-                        src="../assets/images/grid/2.JPG"
+                        src="../assets/images/grid/2.jpg"
                         class="w-100 shadow-1-strong rounded mb-4"
                         alt="Wintry Mountain Landscape"
                     />
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img
-                        src="../assets/images/grid/3.JPG"
+                        src="../assets/images/grid/3.jpg"
                         class="w-100 shadow-1-strong rounded mb-4"
                         alt="Mountains in the Clouds"
                     />
@@ -47,7 +47,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <img
-                                src="../assets/images/grid/4.JPG"
+                                src="../assets/images/grid/4.jpg"
                                 class="w-100  shadow-1-strong rounded mb-4"
                                 alt="Wintry Mountain Landscape"
                             />
@@ -56,7 +56,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <img
-                                    src="../assets/images/grid/5.JPG"
+                                    src="../assets/images/grid/5.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
                                     alt="Boat on Calm Water"
                                 />
@@ -65,7 +65,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <img
-                                    src="../assets/images/grid/6.JPG"
+                                    src="../assets/images/grid/6.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
                                     alt="Boat on Calm Water"
                                 />
@@ -77,14 +77,14 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <img
-                                    src="../assets/images/grid/7.JPG"
+                                    src="../assets/images/grid/7.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
                                     alt="Boat on Calm Water"
                                 />
                         </div>
                         <div class="col-lg-6">
                             <img
-                                    src="../assets/images/grid/8.JPG"
+                                    src="../assets/images/grid/8.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
                                     alt="Boat on Calm Water"
                                 />
