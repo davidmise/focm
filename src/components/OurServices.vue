@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <div data-aos="zoom-in-up"  class="col-lg-4 col-md-6 mb-4 portfolio-item  second">
+                    <div   class="col-lg-4 col-md-6 mb-4 portfolio-item  second">
                         <div class="position-relative  overflow-hidden mb-2">
                             <img class="img-fluid image rounded w-100" src="../assets/images/ourservices/3d/lipstick2.png" alt="" style="height: 600px;" >
                             <!-- <div class="portfolio-btn bg-secondary d-flex align-items-center  mask middle justify-content-center"> -->
@@ -63,7 +63,7 @@
                             <!-- </div> -->
                         </div>
                     </div>
-                    <div data-aos="zoom-in-up"  class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                         <div class="position-relative overflow-hidden mb-2">
                             <img class="img-fluid rounded w-100" src="../assets/images/ourservices/3d/handcream.png" alt="" style="height: 600px;" >
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <div data-aos="zoom-in-up"  class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                         <div class="position-relative overflow-hidden mb-2">
                             <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/1.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -134,7 +134,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <div data-aos="zoom-in-up" class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
+                    <div  class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
                         <div class="position-relative overflow-hidden mb-2">
                             <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/4.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in-up"  class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div   class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                         <div class="position-relative overflow-hidden mb-2">
                             <img class="img-fluid rounded w-100" src="../assets/images/ourservices/SoftwareDev/StockManager.png" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
