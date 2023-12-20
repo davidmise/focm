@@ -4,7 +4,7 @@
             <div class="row text-white">
                 <div class="col-lg-12  mx-auto">
                     <div class="text-center pb-3">
-                        <span class=" display-4 px-3 fw-bold"> Let's take take a step towards a better world. </span>
+                        <span class=" display-4 px-3 fw-bold"> Let's take a step towards a better world. </span>
                     </div>     
                     <div class="container-fluid ">
                         <div class="row">

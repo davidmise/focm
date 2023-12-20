@@ -18,9 +18,9 @@
                     <div class="top">
                        
                     </div>
-                        <div class="centered ">
+                        <div  class="centered ">
                             <div class="row text-center text-white">
-                                <div class="col-lg-12 mx-auto">
+                                <div data-aos="zoom-in-up" class="col-lg-12 mx-auto">
                                     <strong class="fw-bold vw-4"> Creative thinking.  </strong> <br>
                                         <span class="vw-3"> 
                                             Introducing new ideas or methods  
