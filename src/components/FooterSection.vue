@@ -1,7 +1,7 @@
 <template>
 <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
+    <div data-aos="zoom-in-up"  class="footer-top">
       <div class="container">
         <div class="row mx-auto">
 

@@ -20,7 +20,7 @@
                     </div>
                         <div  class="centered ">
                             <div class="row text-center text-white">
-                                <div data-aos="zoom-in-up" class="col-lg-12 mx-auto">
+                                <div class="col-lg-12 mx-auto">
                                     <strong class="fw-bold vw-4"> Creative thinking.  </strong> <br>
                                         <span class="vw-3"> 
                                             Introducing new ideas or methods  
@@ -44,25 +44,25 @@
     
 </template>
 <script>
-import NavigationBar from '@/components/NavigationBar.vue'
+    import NavigationBar from '@/components/NavigationBar.vue'
 
-import img1 from '../assets/images/carousel/1.png';
-import img3 from '../assets/images/carousel/3.png';
-import img2 from '../assets/images/carousel/2.png';
-import img4 from '../assets/images/carousel/4.png';
-import img5 from '../assets/images/carousel/5.jpg';
-import img6 from '../assets/images/carousel/6.jpg';
-import img7 from '../assets/images/carousel/7.jpg';
-import img8 from '../assets/images/carousel/8.jpg';
-import img9 from '../assets/images/carousel/9.jpg';
-export default {
-  data() {
-    return {
-      images: [ img1, img2, img3, img4, img5, img6,img7, img8, img9 ]
+    import img1 from '../assets/images/carousel/1.png';
+    import img3 from '../assets/images/carousel/3.png';
+    import img2 from '../assets/images/carousel/2.png';
+    import img4 from '../assets/images/carousel/4.png';
+    import img5 from '../assets/images/carousel/5.jpg';
+    import img6 from '../assets/images/carousel/6.jpg';
+    import img7 from '../assets/images/carousel/7.jpg';
+    import img8 from '../assets/images/carousel/8.jpg';
+    import img9 from '../assets/images/carousel/9.jpg';
+    export default {
+    data() {
+        return {
+        images: [ img1, img2, img3, img4, img5, img6,img7, img8, img9 ]
+        }
+    },
+    components:{
+        NavigationBar
     }
-  },
-  components:{
-    NavigationBar
-  }
-}
+    }
 </script>

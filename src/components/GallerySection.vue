@@ -1,7 +1,7 @@
 <template>
     <!-- Photograohy -->
     <section id="gallery">
-        <div class="container-fluid py-5">
+        <div data-aos="zoom-in-up"  class="container-fluid py-5">
             <div class="row text-center">
                 <div class="col-lg-12 mx-auto">
                     <div class="justify-content-center">
@@ -16,7 +16,7 @@
         <div class=" container mx-auto row">
             <!-- first row -->
             <div class="row">
-                <div class="col-lg-6 justify-content-center">
+                <div data-aos="zoom-in-up"  class="col-lg-6 justify-content-center">
                     <img
                         src="../assets/images/grid/9.jpg"
                         class="w-100  shadow-1-strong rounded mb-4"
@@ -24,7 +24,7 @@
                     />
                 </div>
 
-                <div class="col-lg-6">
+                <div data-aos="zoom-in-up"  class="col-lg-6">
                     <img
                         src="../assets/images/grid/2.jpg"
                         class="w-100 shadow-1-strong rounded mb-4"
@@ -34,8 +34,8 @@
             </div>
                 
             <!-- second row styarts here  -->
-            <div class="row">
-                <div class="col-lg-6">
+            <div  class="row">
+                <div data-aos="zoom-in-up"  class="col-lg-6">
                     <img
                         src="../assets/images/grid/3.jpg"
                         class="w-100 shadow-1-strong rounded mb-4"
@@ -45,16 +45,16 @@
                 <!-- first half ends here-->
                 <div class=" col-lg-6">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div data-aos="zoom-in-up"  class="col-lg-6">
                             <img
                                 src="../assets/images/grid/4.jpg"
                                 class="w-100  shadow-1-strong rounded mb-4"
                                 alt="Wintry Mountain Landscape"
                             />
                         </div>
-                        <div class="col-lg-6">
+                        <div data-aos="zoom-in-up"  class="col-lg-6">
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div data-aos="zoom-in-up"  class="col-lg-12">
                                     <img
                                     src="../assets/images/grid/5.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div data-aos="zoom-in-up"  class="col-lg-12">
                                     <img
                                     src="../assets/images/grid/6.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
@@ -74,15 +74,15 @@
                         </div>
                     </div>
                     <!-- final row -->
-                    <div class="row">
-                        <div class="col-lg-6">
+                    <div data-aos="zoom-in-up"  class="row">
+                        <div data-aos="zoom-in-up"  class="col-lg-6">
                             <img
                                     src="../assets/images/grid/7.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
                                     alt="Boat on Calm Water"
                                 />
                         </div>
-                        <div class="col-lg-6">
+                        <div data-aos="zoom-in-up"  class="col-lg-6">
                             <img
                                     src="../assets/images/grid/8.jpg"
                                     class="w-100  shadow-1-strong rounded mb-4"
