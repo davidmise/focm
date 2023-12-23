@@ -82,4 +82,5 @@ export default {
   .navbar-toggler[aria-expanded="true"] + .collapse .navbar-nav {
     display: flex;
   }
-}</style>
+}
+</style>

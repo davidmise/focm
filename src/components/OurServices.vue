@@ -40,8 +40,7 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="row portfolio-container">
-                    
+                <div class="row portfolio-container">                  
                     <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                         <div class="position-relative overflow-hidden mb-2">
                             <img class="img-fluid rounded w-100" src="../assets/images/ourservices/3d/lipstick.jpg" alt="" style="height: 600px;" >

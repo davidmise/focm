@@ -67,7 +67,7 @@
                             </div>
                            
                         </div>
-                        <div data-aos="zoom-in-up"  class="col-lg-6 col-md-6">
+                        <div data-aos="zoom-in-up"  class="col-lg-6 col-md-">
                             <div class="row">
                                 <div data-aos="zoom-in-up"  class="col-lg-12 col-md-12">
                                     <img
