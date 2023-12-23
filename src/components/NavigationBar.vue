@@ -1,4 +1,5 @@
 <template>
+  
     <nav  class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top opacity-75" :class="{ 'navbar-hidden': isNavbarHidden }" >
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Logo</a> -->
@@ -21,6 +22,8 @@
         </div>
         </div>
       </nav>
+
+    
 </template>
 <script>
 export default {
@@ -57,6 +60,10 @@ export default {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+}
 /* Hide the navigation links on small devices by default */
 @media (max-width: 991.98px) {
   .navbar-nav {
@@ -66,7 +73,9 @@ export default {
     max-width: 60px;
     max-height: 60px;
   }
-
+.container {
+    flex-direction: column; /* Stack items vertically on small devices */
+  }
 
 
   /* Show the navigation links when the menu is expanded */
