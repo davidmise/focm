@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-      
+
         <div class="container-fluid  pb-3" id="portfolio" >
             <div class="container">
                 <!-- <div class="position-relative d-flex align-items-center justify-content-center">
@@ -54,7 +54,7 @@
                     </div> -->
                     <div   class="col-lg-4 col-md-6 mb-4 portfolio-item  second">
                         <div class="position-relative  overflow-hidden mb-2">
-                            <img class="img-fluid image rounded w-100" src="../assets/images/ourservices/3d/lipstick2.png" alt="" style="height: 600px;" >
+                            <img class="img image rounded w-100" src="../assets/images/ourservices/3d/lipstick2.png" alt="" style="height: 600px;" >
                             <!-- <div class="portfolio-btn bg-secondary d-flex align-items-center  mask middle justify-content-center"> -->
                                 <!-- <a href="../assets/images/grid/1.JPG" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" "></i>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/3d/handcream.png" alt="" style="height: 600px;" >
+                            <img class="img rounded w-100" src="../assets/images/ourservices/3d/handcream.png" alt="" style="height: 600px;" >
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="../assets/images/grid/1.JPG" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -96,7 +96,7 @@
                     </div> -->
                     <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/1.jpg" alt="">
+                            <img class="img rounded w-100" src="../assets/images/ourservices/Photography/1.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="img/IMG-20220105-WA0052.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -136,7 +136,7 @@
                     </div> -->
                     <div  class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/Photography/4.jpg" alt="">
+                            <img class="img rounded w-100" src="../assets/images/ourservices/Photography/4.jpg" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="img/IMG-20220105-WA0052.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -146,7 +146,7 @@
                     </div>
                     <div   class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                         <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="../assets/images/ourservices/SoftwareDev/StockManager.png" alt="">
+                            <img class="img rounded w-100" src="../assets/images/ourservices/SoftwareDev/StockManager.png" alt="">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                                 <!-- <a href="../assets/images/grid/1.JPG" data-lightbox="portfolio">
                                     <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
