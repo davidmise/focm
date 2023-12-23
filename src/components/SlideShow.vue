@@ -7,12 +7,6 @@
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="8" aria-label="Slide 9"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="9" aria-label="Slide 10"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="10" aria-label="Slide 11"></button>
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="11" aria-label="Slide 12"></button>
         </div>
         <div class="carousel-inner">     
             <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide ', index === 0 ? 'active' : '']">
@@ -45,18 +39,15 @@
     </div>
 </template>
 <script>
-    import img2 from '../assets/images/carousel/2.png';
-    import img4 from '../assets/images/carousel/4.png';   
-    import img7 from '../assets/images/carousel/7.jpg';
-    import img8 from '../assets/images/carousel/8.jpg';
-    import img9 from '../assets/images/carousel/9.jpg';
-    import img10 from '../assets/images/carousel/10.jpg';
-    import img11 from '../assets/images/carousel/11.jpg';
-    import img12 from '../assets/images/carousel/12.jpg';
+    import img1 from '../assets/images/carousel/1.jpg';
+    import img2 from '../assets/images/carousel/2.jpg';
+    import img3 from '../assets/images/carousel/3.jpg';
+    import img4 from '../assets/images/carousel/4.jpg';
+    import img5 from '../assets/images/carousel/5.jpg';
     export default {
         data() {
             return {
-            images: [img2, img4, img7, img8, img9, img10, img11, img12 ]
+            images: [img1, img2, img3, img4, img5]
             }
         },
     }
