@@ -32,7 +32,7 @@
                     />
                 </div>
             </div>
-                
+     
             <!-- second row styarts here  -->
             <div  class="row">
                 <div data-aos="zoom-in-up"  class="col-lg-6 col-md-6">
