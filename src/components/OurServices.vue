@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="container-fluid  pb-3" id="portfolio" >
+        <div class="container  pb-3" id="portfolio" >
             <div class="container">
                 <!-- <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>

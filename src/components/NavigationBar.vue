@@ -17,7 +17,7 @@
                 <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg" aria-current="page" href="#services"> Services </a>
                 <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg " aria-current="page" href="#gallery">Gallery</a>
                 <!-- <RouterLink to="/"  class="nav-link navbar-brand fw-bold active d-flex justify-content-center text-white  text-uppercase" aria-current="page" href="#experience"></RouterLink> -->
-                <a class="nav-link navbar-bra d-flex justify-content-center text-uppercase  nav-lg " aria-current="page" href="#contacts">Contacts</a>
+                <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg " aria-current="page" href="#contacts">Contacts</a>
             </div>
         </div>
         </div>
