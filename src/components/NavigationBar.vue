@@ -1,6 +1,6 @@
 <template>
   
-    <nav  class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top opacity-75" :class="{ 'navbar-hidden': isNavbarHidden }" >
+    <nav  class="navbar navbar-expand-lg fixed-top " :class="{ 'navbar-hidden': isNavbarHidden }" >
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Logo</a> -->
           <RouterLink to="/"  class="navbar-brand" aria-current="page" href="#experience">
@@ -8,16 +8,16 @@
              <!-- <span> Overland </span> -->
             </RouterLink>
           <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white "></span>
+            <span class="navbar-toggler-icon text-white" style="color:white;"></span>
           </button>
-          <div class="collapse navbar-collapse nav-justified  justify-content-lg-center " id="navbarNavAltMarkup">
-            <div class="navbar-nav  " style="color: white;" >
-                <a  class="nav-link navbar-brand active  fw-bold d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#home" >  HOME </a>
-                <a class="nav-link navbar-brand fw-bold  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#about"> About us </a>
-                <a   class="nav-link navbar-brand fw-bold active  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#services">Services</a>
-                <a   class="nav-link navbar-brand fw-bold active  d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#gallery">Gallery</a>
+          <div class="collapse navbar-collapse nav-sm nav-justified rounded  rounded-5 justify-content-lg-center " id="navbarNavAltMarkup" data-aos="zoom-out-up" >
+            <div class="navbar-nav" >
+                <a class="nav-link navbar-brand fw-bold d-flex justify-content-center nav-lg text-uppercase" aria-current="page" href="#home" >  HOME </a>
+                <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg" aria-current="page" href="#about"> About us </a>
+                <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg" aria-current="page" href="#services"> Services </a>
+                <a class="nav-link navbar-brand fw-bold d-flex justify-content-center text-uppercase  nav-lg " aria-current="page" href="#gallery">Gallery</a>
                 <!-- <RouterLink to="/"  class="nav-link navbar-brand fw-bold active d-flex justify-content-center text-white  text-uppercase" aria-current="page" href="#experience"></RouterLink> -->
-                <a   class="nav-link navbar-brand fw-bold active d-flex justify-content-center text-white text-uppercase" aria-current="page" href="#contacts">Contacts</a>
+                <a class="nav-link navbar-bra d-flex justify-content-center text-uppercase  nav-lg " aria-current="page" href="#contacts">Contacts</a>
             </div>
         </div>
         </div>
@@ -77,10 +77,23 @@ export default {
     flex-direction: column; /* Stack items vertically on small devices */
   }
 
+  .nav-sm{
+    background-color: white;
+    height: 30vh;
+    color: black;
+  }
+
 
   /* Show the navigation links when the menu is expanded */
   .navbar-toggler[aria-expanded="true"] + .collapse .navbar-nav {
     display: flex;
+  }
+}
+
+@media (min-width: 992.98px) {
+
+  .nav-lg{
+    color:white;
   }
 }
 </style>
